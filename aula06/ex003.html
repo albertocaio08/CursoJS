@@ -21,9 +21,12 @@
     <h1>Olá, mundo!</h1>
     <P>Já me livrei da maldição</P>
     <script>
-        window.alert('Minha primeira mensagem!') //Janela com botçao OK
-        window.confirm('Está gostando de JS?')//Janela com botão OK e Cancelar
-        window.prompt('Qual é o seu nome?')//Janela que pergunta o nome 
+        var n1 = Number(window.prompt('Digite um número: ')) // Sempre retorna String
+        var n2 = Number(window.prompt('Digite um número: ')) // Sempre retorna String
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s} `) //Template string
+        // (number + number) para adição
+        // (string + string) para concatenação
     </script>
 </body>
 </html>
