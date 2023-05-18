@@ -24,8 +24,15 @@ section{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.52);
 }
 
+div{
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
 footer{
     color: white;
     text-align: center;
     padding-top: 30px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.52);
 }
